@@ -1,32 +1,32 @@
-ul a {
-    text-decoration: none;
-    font-size: 500;
-    color: #fff;
+header {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    box-shadow: 5px 0px 10px rgba(0, 0, 0, 0.5);
 }
-
 
 nav ul {
     display: flex;
-    gap: 2rem;
-    margin: 0;
-    list-style: none;
+    gap: 4rem;
 }
 
-.user-shop-icons {
-    display: flex;
-    gap: 2rem;
+ul a {
+    text-decoration: none;
     font-size: 1.5rem;
+    color: #fff;
+}
+
+ul a:hover {
+    color: black;
 }
 
 .hamburger-menu-icon {
     display: none;
 }
 
-@media (max-width: 768px) {
+/*/////////////////////// Mobile layout////////////////////// */
 
-    header {
-        position: relative;
-    }
+@media (max-width: 768px) {
 
     nav ul {
         opacity: 0;
@@ -80,8 +80,8 @@ nav ul {
         display: block;
         position: absolute;
         right: 1rem;
-        top: 1.5rem;
-        font-size: 1.5rem;
+        top: 2rem;
+        font-size: 3rem;
         cursor: pointer;
     }
 
