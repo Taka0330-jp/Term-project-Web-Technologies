@@ -48,13 +48,13 @@
             
             <div class="product-cards-container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                 <!-- Card 1 - Gaming Keyboard -->
-                <div class="product-card bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
+                <div class="product-card bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300 flex flex-col">
                     <div class="product-image bg-gray-200 h-48 flex items-center justify-center overflow-hidden">
                         <img src="/Images/Featured-Keyboard.jpg" alt="Mechanical Gaming Keyboard" class="w-full h-full object-cover hover:scale-105 transition-transform duration-300">
                     </div>
-                    <div class="product-info p-6">
+                    <div class="product-info p-6 flex flex-col flex-grow">
                         <h3 class="text-xl font-semibold mb-2 text-gray-800">Mechanical Keyboard</h3>
-                        <p class="text-gray-600 mb-4">RGB backlit mechanical keyboard with premium switches for ultimate gaming performance.</p>
+                        <p class="text-gray-600 mb-4 flex-grow">RGB backlit mechanical keyboard with premium switches for ultimate gaming performance.</p>
                         <div class="product-price text-2xl font-bold text-sky-600 mb-4">$129.99</div>
                         <button class="add-to-cart-btn w-full bg-sky-400 text-white py-2 px-4 rounded hover:bg-sky-500 transition-colors duration-300">
                             Add to Cart
@@ -63,13 +63,13 @@
                 </div>
 
                 <!-- Card 2 - Gaming Mouse -->
-                <div class="product-card bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
+                <div class="product-card bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300 flex flex-col">
                     <div class="product-image bg-gray-200 h-48 flex items-center justify-center overflow-hidden">
                         <img src="/Images/Featured-Mouse.jpg" alt="Precision Gaming Mouse" class="w-full h-full object-cover hover:scale-105 transition-transform duration-300">
                     </div>
-                    <div class="product-info p-6">
+                    <div class="product-info p-6 flex flex-col flex-grow">
                         <h3 class="text-xl font-semibold mb-2 text-gray-800">Precision Gaming Mouse</h3>
-                        <p class="text-gray-600 mb-4">High-DPI wireless gaming mouse with customizable buttons and ergonomic design.</p>
+                        <p class="text-gray-600 mb-4 flex-grow">High-DPI wireless gaming mouse with customizable buttons and ergonomic design.</p>
                         <div class="product-price text-2xl font-bold text-sky-600 mb-4">$79.99</div>
                         <button class="add-to-cart-btn w-full bg-sky-400 text-white py-2 px-4 rounded hover:bg-sky-500 transition-colors duration-300">
                             Add to Cart
@@ -78,13 +78,13 @@
                 </div>
 
                 <!-- Card 3 - Gaming Headset -->
-                <div class="product-card bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
+                <div class="product-card bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300 flex flex-col">
                     <div class="product-image bg-gray-200 h-48 flex items-center justify-center overflow-hidden">
                         <img src="/Images/Featured-Headset.jpg" alt="Surround Sound Gaming Headset" class="w-full h-full object-cover hover:scale-105 transition-transform duration-300">
                     </div>
-                    <div class="product-info p-6">
+                    <div class="product-info p-6 flex flex-col flex-grow">
                         <h3 class="text-xl font-semibold mb-2 text-gray-800">Surround Sound Headset</h3>
-                        <p class="text-gray-600 mb-4">7.1 surround sound gaming headset with noise-canceling microphone for crystal clear communication.</p>
+                        <p class="text-gray-600 mb-4 flex-grow">7.1 surround sound gaming headset with noise-canceling microphone for crystal clear communication.</p>
                         <div class="product-price text-2xl font-bold text-sky-600 mb-4">$159.99</div>
                         <button class="add-to-cart-btn w-full bg-sky-400 text-white py-2 px-4 rounded hover:bg-sky-500 transition-colors duration-300">
                             Add to Cart
@@ -145,6 +145,73 @@
                 <div class="category-card bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 hover:-translate-y-2 h-32 flex flex-col items-center justify-center relative group cursor-pointer">
                     <i class="fa-solid fa-video text-4xl text-indigo-600"></i>
                     <h3 class="text-lg font-semibold text-gray-800 mt-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">Streaming</h3>
+                </div>
+            </div>
+        </section>
+
+        <!-- Popular Section -->
+        <section class="popular-section mt-16">
+            <h2 class="text-3xl font-bold text-center mb-8 text-gray-800">Popular Products</h2>
+            
+            <div class="popular-cards-container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <!-- Popular Card 1 - Wireless Gaming Mouse -->
+                <div class="product-card bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300 flex flex-col">
+                    <div class="product-image bg-gray-200 h-48 flex items-center justify-center overflow-hidden">
+                        <img src="/Images/popular-mouse.jpg" alt="Wireless Gaming Mouse" class="w-full h-full object-cover hover:scale-105 transition-transform duration-300">
+                    </div>
+                    <div class="product-info p-6 flex flex-col flex-grow">
+                        <h3 class="text-xl font-semibold mb-2 text-gray-800">Wireless Gaming Mouse</h3>
+                        <p class="text-gray-600 mb-4 flex-grow">Ultra-responsive wireless mouse with 16000 DPI and customizable RGB lighting.</p>
+                        <div class="product-price text-2xl font-bold text-sky-600 mb-4">$89.99</div>
+                        <button class="add-to-cart-btn w-full bg-sky-400 text-white py-2 px-4 rounded hover:bg-sky-500 transition-colors duration-300">
+                            Add to Cart
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Popular Card 2 - RGB Mousepad -->
+                <div class="product-card bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300 flex flex-col">
+                    <div class="product-image bg-gray-200 h-48 flex items-center justify-center overflow-hidden">
+                        <img src="/Images/popular-mousepad.jpg" alt="RGB Gaming Mousepad" class="w-full h-full object-cover hover:scale-105 transition-transform duration-300">
+                    </div>
+                    <div class="product-info p-6 flex flex-col flex-grow">
+                        <h3 class="text-xl font-semibold mb-2 text-gray-800">RGB Gaming Mousepad</h3>
+                        <p class="text-gray-600 mb-4 flex-grow">Large RGB mousepad with smooth surface and customizable lighting effects.</p>
+                        <div class="product-price text-2xl font-bold text-sky-600 mb-4">$39.99</div>
+                        <button class="add-to-cart-btn w-full bg-sky-400 text-white py-2 px-4 rounded hover:bg-sky-500 transition-colors duration-300">
+                            Add to Cart
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Popular Card 3 - Gaming Webcam -->
+                <div class="product-card bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300 flex flex-col">
+                    <div class="product-image bg-gray-200 h-48 flex items-center justify-center overflow-hidden">
+                        <img src="/Images/popular-webcam.jpg" alt="4K Gaming Webcam" class="w-full h-full object-cover hover:scale-105 transition-transform duration-300">
+                    </div>
+                    <div class="product-info p-6 flex flex-col flex-grow">
+                        <h3 class="text-xl font-semibold mb-2 text-gray-800">4K Gaming Webcam</h3>
+                        <p class="text-gray-600 mb-4 flex-grow">Ultra HD webcam with auto-focus and noise reduction for streaming.</p>
+                        <div class="product-price text-2xl font-bold text-sky-600 mb-4">$119.99</div>
+                        <button class="add-to-cart-btn w-full bg-sky-400 text-white py-2 px-4 rounded hover:bg-sky-500 transition-colors duration-300">
+                            Add to Cart
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Popular Card 4 - Mechanical Switches -->
+                <div class="product-card bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300 flex flex-col">
+                    <div class="product-image bg-gray-200 h-48 flex items-center justify-center overflow-hidden">
+                        <img src="/Images/popular-switches.jpg" alt="Mechanical Key Switches" class="w-full h-full object-cover hover:scale-105 transition-transform duration-300">
+                    </div>
+                    <div class="product-info p-6 flex flex-col flex-grow">
+                        <h3 class="text-xl font-semibold mb-2 text-gray-800">Mechanical Key Switches</h3>
+                        <p class="text-gray-600 mb-4 flex-grow">Premium tactile switches for custom keyboard builds. 90-pack included.</p>
+                        <div class="product-price text-2xl font-bold text-sky-600 mb-4">$69.99</div>
+                        <button class="add-to-cart-btn w-full bg-sky-400 text-white py-2 px-4 rounded hover:bg-sky-500 transition-colors duration-300">
+                            Add to Cart
+                        </button>
+                    </div>
                 </div>
             </div>
         </section>
