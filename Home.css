@@ -137,6 +137,76 @@ ul a:hover {
     box-shadow: 0 4px 12px rgba(56, 189, 248, 0.3);
 }
 
+/* Footer */
+footer{
+    background-color: #111;
+    color: #ccc;
+    font-size:14px;
+    margin-top:2rem;
+}
+
+.footer-container{
+    max-width: 1200px;
+    margin: auto;
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 2rem;
+}
+
+.footer-logo{
+    width: 130px;
+    margin-bottom: 1rem;
+}
+
+.footer-desc{
+    line-height: 1.5;
+}
+
+.footer-section h3{
+    color:#fff;
+    margin-bottom: 0.75rem;
+    font-size: 16px;
+}
+
+.footer-section ul{
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li{
+    margin-bottom: 0.5rem;
+}
+
+.footer-section a{
+    color:#ccc;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-section a:hover{
+    color:#fff;
+}
+
+.footer-social a{
+    color:#ccc;
+    font-size:18px;
+    margin-right: 10px;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.footer-social a:hover{
+    color:#fff;
+    transform: scale(1.1);
+}
+
+.footer-bottom{
+    background-color: #000;
+    text-align: center;
+    padding:1rem;
+    font-size:14px;
+    border-top: 1px solid #333;
+}
 /* Mobile responsiveness for product cards */
 @media (max-width: 768px) {
     .product-cards-container {
