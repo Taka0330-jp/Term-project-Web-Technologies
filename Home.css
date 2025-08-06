@@ -244,3 +244,32 @@ footer{
 .animate-fade-in-up {
     animation: fade-in-up 2s ease-out forwards;
 }
+
+/* Apply Zen Dots font to buttons and links */
+a {
+    font-family: 'Zen Dots', cursive;
+}
+
+button {
+    font-family: 'Michroma', sans-serif;;
+}
+
+/* Apply Genos font to h1 elements */
+h1 {
+    font-family: 'Genos', sans-serif;
+}
+
+/* Apply Michroma font to h2 elements */
+h2 {
+    font-family: 'Michroma', sans-serif;
+}
+
+/* Keep default font for other elements, or specify if needed */
+body {
+    font-family: system-ui, -apple-system, sans-serif;
+}
+
+/* Ensure paragraphs and other text use a readable font */
+p, span, div, input, label {
+    font-family: 'Michroma', sans-serif; 
+}
