@@ -11,7 +11,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Genos:ital,wght@0,100..900;1,100..900&family=Michroma&family=Zen+Dots&display=swap"
         rel="stylesheet">
-    <title>About</title>
+    <title>Products</title>
 </head>
 
 <body class="m-0 p-0 box-border">
@@ -23,8 +23,8 @@
 
         <nav class="flex gap-8 justify-evenly">
             <ul>
-                <li><a href=" index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="product.html">Products</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
             <div class="flex items-center gap-2 px-4 bg-white  rounded-md focus-within:ring-2 focus-within:ring-black ">
@@ -45,9 +45,8 @@
             </div>
         </div>
     </header>
-
-
- <section class="about-hero">
+    <main>
+        <section class="about-hero">
   <div class="about-content">
     <div class="about-left">
       <img src="/Images/Popular-Mousepad.jpg" alt="About Us" class="about-mousepad">
@@ -62,25 +61,258 @@
     <div class="about-right">
       <h1>RGB Gaming Mousepad</h1>
       <p>Large RGB mousepad with smooth surface and customizable lighting effects.</p>
-      <a href="#" class="about-button">Learn More</a>
+      <a href="#" class="about-button">Add to Cart</a>
     </div>
   </div>
 </section>
 
 
-    <section class="other-products">
-        <h2>Other Products</h2>
-        <div class="product-grid">
-            <div class="product-box"></div>
-            <div class="product-box"></div>
-            <div class="product-box"></div>
-            <div class="product-box"></div>
-            <div class="product-box"></div>
-            <div class="product-box"></div>
-            <div class="product-box"></div>
-            <div class="product-box"></div>
+    <section class="latest-section mt-16">
+        <h1 class="text-4xl font-bold text-center mb-8 text-gray-800">Other Products</h1>
+
+        <div class="latest-cards-container grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-4">
+            <!-- Latest Card 1 - Wireless Charging Pad -->
+            <div
+                class="product-card bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300 flex flex-col">
+                <div class="product-image bg-gray-200 h-32 flex items-center justify-center overflow-hidden">
+                    <img src="/Images/Latest-Charger.jpg" alt="Wireless Charging Pad"
+                        class="w-full h-full object-cover hover:scale-105 transition-transform duration-300">
+                </div>
+                <div class="product-info p-3 flex flex-col flex-grow">
+                    <h2 class="text-sm font-semibold mb-1 text-gray-800">Wireless Charging Pad</h2>
+                    <p class="text-xs text-gray-600 mb-1 flex-grow">Fast wireless charging with RGB lighting.</p>
+                    <a href="#" class="text-sky-600 hover:text-sky-700 text-xs underline mb-2 self-start">See
+                        Details</a>
+                    <div class="product-price text-lg font-bold text-sky-600 mb-2">$49.99</div>
+                    <button
+                        class="add-to-cart-btn w-full bg-sky-400 text-white py-1.5 px-2 rounded text-xs hover:bg-sky-500 transition-colors duration-300">
+                        Add to Cart
+                    </button>
+                </div>
+            </div>
+
+            <!-- Latest Card 2 - Gaming Desk -->
+            <div
+                class="product-card bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300 flex flex-col">
+                <div class="product-image bg-gray-200 h-32 flex items-center justify-center overflow-hidden">
+                    <img src="/Images/Latest-Desk.jpg" alt="Gaming Desk"
+                        class="w-full h-full object-cover hover:scale-105 transition-transform duration-300">
+                </div>
+                <div class="product-info p-3 flex flex-col flex-grow">
+                    <h2 class="text-sm font-semibold mb-1 text-gray-800">Gaming Desk</h2>
+                    <p class="text-xs text-gray-600 mb-1 flex-grow">Ergonomic desk with cable management.</p>
+                    <a href="#" class="text-sky-600 hover:text-sky-700 text-xs underline mb-2 self-start">See
+                        Details</a>
+                    <div class="product-price text-lg font-bold text-sky-600 mb-2">$299.99</div>
+                    <button
+                        class="add-to-cart-btn w-full bg-sky-400 text-white py-1.5 px-2 rounded text-xs hover:bg-sky-500 transition-colors duration-300">
+                        Add to Cart
+                    </button>
+                </div>
+            </div>
+
+            <!-- Latest Card 3 - VR Headset -->
+            <div
+                class="product-card bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300 flex flex-col">
+                <div class="product-image bg-gray-200 h-32 flex items-center justify-center overflow-hidden">
+                    <img src="/Images/Latest-VR.jpg" alt="VR Gaming Headset"
+                        class="w-full h-full object-cover hover:scale-105 transition-transform duration-300">
+                </div>
+                <div class="product-info p-3 flex flex-col flex-grow">
+                    <h2 class="text-sm font-semibold mb-1 text-gray-800">VR Gaming Headset</h2>
+                    <p class="text-xs text-gray-600 mb-1 flex-grow">Next-gen VR with 4K display.</p>
+                    <a href="#" class="text-sky-600 hover:text-sky-700 text-xs underline mb-2 self-start">See
+                        Details</a>
+                    <div class="product-price text-lg font-bold text-sky-600 mb-2">$599.99</div>
+                    <button
+                        class="add-to-cart-btn w-full bg-sky-400 text-white py-1.5 px-2 rounded text-xs hover:bg-sky-500 transition-colors duration-300">
+                        Add to Cart
+                    </button>
+                </div>
+            </div>
+             <!-- Latest Card 4 - Gaming Microphone -->
+            <div
+                class="product-card bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300 flex flex-col">
+                <div class="product-image bg-gray-200 h-32 flex items-center justify-center overflow-hidden">
+                    <img src="/Images/Latest-Mic.jpg" alt="Gaming Microphone"
+                        class="w-full h-full object-cover hover:scale-105 transition-transform duration-300">
+                </div>
+                <div class="product-info p-3 flex flex-col flex-grow">
+                    <h2 class="text-sm font-semibold mb-1 text-gray-800">Gaming Microphone</h2>
+                    <p class="text-xs text-gray-600 mb-1 flex-grow">Professional USB mic with RGB.</p>
+                    <a href="#" class="text-sky-600 hover:text-sky-700 text-xs underline mb-2 self-start">See
+                        Details</a>
+                    <div class="product-price text-lg font-bold text-sky-600 mb-2">$149.99</div>
+                    <button
+                        class="add-to-cart-btn w-full bg-sky-400 text-white py-1.5 px-2 rounded text-xs hover:bg-sky-500 transition-colors duration-300">
+                        Add to Cart
+                    </button>
+                </div>
+            </div>
+
+            <!-- Latest Card 5 - Portable SSD -->
+            <div
+                class="product-card bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300 flex flex-col">
+                <div class="product-image bg-gray-200 h-32 flex items-center justify-center overflow-hidden">
+                    <img src="/Images/Latest-SSD.jpg" alt="Portable Gaming SSD"
+                        class="w-full h-full object-cover hover:scale-105 transition-transform duration-300">
+                </div>
+                <div class="product-info p-3 flex flex-col flex-grow">
+                    <h2 class="text-sm font-semibold mb-1 text-gray-800">Portable Gaming SSD</h2>
+                    <p class="text-xs text-gray-600 mb-1 flex-grow">Ultra-fast 2TB portable SSD.</p>
+                    <a href="#" class="text-sky-600 hover:text-sky-700 text-xs underline mb-2 self-start">See
+                        Details</a>
+                    <div class="product-price text-lg font-bold text-sky-600 mb-2">$249.99</div>
+                    <button
+                        class="add-to-cart-btn w-full bg-sky-400 text-white py-1.5 px-2 rounded text-xs hover:bg-sky-500 transition-colors duration-300">
+                        Add to Cart
+                    </button>
+                </div>
+            </div>
+
+            <!-- Latest Card 6 - Gaming Glasses -->
+            <div
+                class="product-card bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300 flex flex-col">
+                <div class="product-image bg-gray-200 h-32 flex items-center justify-center overflow-hidden">
+                    <img src="/Images/Latest-Glasses.jpg" alt="Blue Light Gaming Glasses"
+                        class="w-full h-full object-cover hover:scale-105 transition-transform duration-300">
+                </div>
+                <div class="product-info p-3 flex flex-col flex-grow">
+                    <h2 class="text-sm font-semibold mb-1 text-gray-800">Blue Light Gaming Glasses</h2>
+                    <p class="text-xs text-gray-600 mb-1 flex-grow">Anti-fatigue gaming glasses.</p>
+                    <a href="#" class="text-sky-600 hover:text-sky-700 text-xs underline mb-2 self-start">See
+                        Details</a>
+                    <div class="product-price text-lg font-bold text-sky-600 mb-2">$79.99</div>
+                    <button
+                        class="add-to-cart-btn w-full bg-sky-400 text-white py-1.5 px-2 rounded text-xs hover:bg-sky-500 transition-colors duration-300">
+                        Add to Cart
+                    </button>
+                </div>
+            </div>
+
+            <!-- Latest Card 7 - RGB Mousepad XL -->
+            <div
+                class="product-card bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300 flex flex-col">
+                <div class="product-image bg-gray-200 h-32 flex items-center justify-center overflow-hidden">
+                    <img src="/Images/Latest-Mousepad.jpg" alt="RGB Mousepad XL"
+                        class="w-full h-full object-cover hover:scale-105 transition-transform duration-300">
+                </div>
+                <div class="product-info p-3 flex flex-col flex-grow">
+                    <h2 class="text-sm font-semibold mb-1 text-gray-800">RGB Mousepad XL</h2>
+                    <p class="text-xs text-gray-600 mb-1 flex-grow">Extra large RGB mousepad.</p>
+                    <a href="#" class="text-sky-600 hover:text-sky-700 text-xs underline mb-2 self-start">See
+                        Details</a>
+                    <div class="product-price text-lg font-bold text-sky-600 mb-2">$59.99</div>
+                    <button
+                        class="add-to-cart-btn w-full bg-sky-400 text-white py-1.5 px-2 rounded text-xs hover:bg-sky-500 transition-colors duration-300">
+                        Add to Cart
+                    </button>
+                </div>
+            </div>
+
+            <!-- Latest Card 8 - Gaming Keycaps -->
+            <div
+                class="product-card bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300 flex flex-col">
+                <div class="product-image bg-gray-200 h-32 flex items-center justify-center overflow-hidden">
+                    <img src="/Images/Latest-Caps.jpg" alt="Gaming Keycaps"
+                        class="w-full h-full object-cover hover:scale-105 transition-transform duration-300">
+                </div>
+                <div class="product-info p-3 flex flex-col flex-grow">
+                    <h2 class="text-sm font-semibold mb-1 text-gray-800">Gaming Keycaps</h2>
+                    <p class="text-xs text-gray-600 mb-1 flex-grow">Premium PBT keycaps set.</p>
+                    <a href="#" class="text-sky-600 hover:text-sky-700 text-xs underline mb-2 self-start">See
+                        Details</a>
+                    <div class="product-price text-lg font-bold text-sky-600 mb-2">$89.99</div>
+                    <button
+                        class="add-to-cart-btn w-full bg-sky-400 text-white py-1.5 px-2 rounded text-xs hover:bg-sky-500 transition-colors duration-300">
+                        Add to Cart
+                    </button>
+                </div>
+            </div>
+
+            <!-- Latest Card 9 - Cable Management Kit -->
+            <div
+                class="product-card bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300 flex flex-col">
+                <div class="product-image bg-gray-200 h-32 flex items-center justify-center overflow-hidden">
+                    <img src="/Images/Latest-Cable.jpg" alt="Cable Management Kit"
+                        class="w-full h-full object-cover hover:scale-105 transition-transform duration-300">
+                </div>
+                <div class="product-info p-3 flex flex-col flex-grow">
+                    <h2 class="text-sm font-semibold mb-1 text-gray-800">Cable Management Kit</h2>
+                    <p class="text-xs text-gray-600 mb-1 flex-grow">Complete cable organization solution.</p>
+                    <a href="#" class="text-sky-600 hover:text-sky-700 text-xs underline mb-2 self-start">See
+                        Details</a>
+                    <div class="product-price text-lg font-bold text-sky-600 mb-2">$29.99</div>
+                    <button
+                        class="add-to-cart-btn w-full bg-sky-400 text-white py-1.5 px-2 rounded text-xs hover:bg-sky-500 transition-colors duration-300">
+                        Add to Cart
+                    </button>
+                </div>
+            </div>
+
+            <!-- Latest Card 10 - Gaming Phone Stand -->
+            <div
+                class="product-card bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300 flex flex-col">
+                <div class="product-image bg-gray-200 h-32 flex items-center justify-center overflow-hidden">
+                    <img src="/Images/Latest-Stand.jpg" alt="Gaming Phone Stand"
+                        class="w-full h-full object-cover hover:scale-105 transition-transform duration-300">
+                </div>
+                <div class="product-info p-3 flex flex-col flex-grow">
+                    <h2 class="text-sm font-semibold mb-1 text-gray-800">Gaming Phone Stand</h2>
+                    <p class="text-xs text-gray-600 mb-1 flex-grow">Adjustable RGB phone stand.</p>
+                    <a href="#" class="text-sky-600 hover:text-sky-700 text-xs underline mb-2 self-start">See
+                        Details</a>
+                    <div class="product-price text-lg font-bold text-sky-600 mb-2">$39.99</div>
+                    <button
+                        class="add-to-cart-btn w-full bg-sky-400 text-white py-1.5 px-2 rounded text-xs hover:bg-sky-500 transition-colors duration-300">
+                        Add to Cart
+                    </button>
+                </div>
+            </div>
+
+            <!-- Latest Card 11 - Monitor Light Bar -->
+            <div
+                class="product-card bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300 flex flex-col">
+                <div class="product-image bg-gray-200 h-32 flex items-center justify-center overflow-hidden">
+                    <img src="/Images/Latest-lightbar.jpg" alt="Monitor Light Bar"
+                        class="w-full h-full object-cover hover:scale-105 transition-transform duration-300">
+                </div>
+                <div class="product-info p-3 flex flex-col flex-grow">
+                    <h2 class="text-sm font-semibold mb-1 text-gray-800">Monitor Light Bar</h2>
+                    <p class="text-xs text-gray-600 mb-1 flex-grow">RGB monitor ambient lighting.</p>
+                    <a href="#" class="text-sky-600 hover:text-sky-700 text-xs underline mb-2 self-start">See
+                        Details</a>
+                    <div class="product-price text-lg font-bold text-sky-600 mb-2">$69.99</div>
+                    <button
+                        class="add-to-cart-btn w-full bg-sky-400 text-white py-1.5 px-2 rounded text-xs hover:bg-sky-500 transition-colors duration-300">
+                        Add to Cart
+                    </button>
+                </div>
+            </div>
+
+            <!-- Latest Card 12 - Gaming Wrist Rest -->
+            <div
+                class="product-card bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300 flex flex-col">
+                <div class="product-image bg-gray-200 h-32 flex items-center justify-center overflow-hidden">
+                    <img src="/Images/Latest-Wrist.jpg" alt="Gaming Wrist Rest"
+                        class="w-full h-full object-cover hover:scale-105 transition-transform duration-300">
+                </div>
+                <div class="product-info p-3 flex flex-col flex-grow">
+                    <h2 class="text-sm font-semibold mb-1 text-gray-800">Gaming Wrist Rest</h2>
+                    <p class="text-xs text-gray-600 mb-1 flex-grow">Ergonomic memory foam wrist rest.</p>
+                    <a href="#" class="text-sky-600 hover:text-sky-700 text-xs underline mb-2 self-start">See
+                        Details</a>
+                    <div class="product-price text-lg font-bold text-sky-600 mb-2">$34.99</div>
+                    <button
+                        class="add-to-cart-btn w-full bg-sky-400 text-white py-1.5 px-2 rounded text-xs hover:bg-sky-500 transition-colors duration-300">
+                        Add to Cart
+                    </button>
+                </div>
+            </div>
         </div>
     </section>
+    </main>
+
     <!-- Footer -->
     <footer class="bg-gray-900 text-white py-8 mt-12">
         <div class="container mx-auto px-4">
