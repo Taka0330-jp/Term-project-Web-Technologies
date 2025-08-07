@@ -20,6 +20,100 @@ ul a:hover {
     color: black;
 }
 
+/*Section*/
+.about-hero {
+  background-color: #87CEEB;
+  padding: 40px 20px;
+}
+
+.about-content {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 40px 0 40px 40px;
+  gap: 60px;
+}
+
+.about-left{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    
+}
+
+.about-image img {
+  height: auto;
+}
+
+.about-price{
+    font-size:1.3rem;
+    font-weight: bold;
+    color:#1e293b;
+    margin-left:20px
+  
+}
+
+.about-button {
+  display: inline-block;
+  margin-top: 15px;
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+.about-mousepad{
+    width:600px;
+    height:420px;
+    object-fit: contain;
+    display: block; 
+}
+
+.about-right{
+    max-width: 400px;
+    margin-top:10px;
+    margin-left:60px;
+    font-size:1.2rem;
+}
+
+.about-right h1{
+    font-size: 2rem;
+    margin-bottom: 16px;
+}
+
+.about-right p {
+    font-size:1.2rem;
+    margin-bottom: 20px;
+}
+
+.about-squares{
+    display: flex;
+    gap:16px;
+    margin-top:0;
+}
+
+.about-square{
+    width:80px;
+    height:80px;
+    background:#ddd;
+    border-radius:6px;
+}
+/* 4 Icon Boxes */
+.about-icons {
+  background-color: #87CEEB;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 30px;
+  flex-wrap: wrap;
+}
+
+.icon-box {
+  width: 80px;
+  height: 80px;
+  background-color: #ccc;
+}
+
 .hamburger-menu-icon {
     display: none;
 }
